@@ -6,27 +6,27 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
-<h1>Add New Post</h1>
+
+<jsp:include page="top.jsp"/>
+
+<h1>새 글 작성</h1>
 <form action="write_ok.jsp" method="post">
-    <table>
-        <tr>
-            <td>Title:</td>
-            <td><input type="text" name="writer"/></td>
-        </tr>
-        <tr>
-            <td>Content:</td>
-            <td><textarea cols="50" rows="5" name="content"></textarea></td>
-        </tr>
-        <tr>
-            <td><a href="">View All Records</a></td>
-            <td align="right"><input type="submit" value="Add Post"></td>
-        </tr>
-    </table>
+    <div class="mb-3">
+        <label class="form-label">제목</label>
+        <input type="text" name="title" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">작성자</label>
+        <input type="text" name="writer" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">내용</label>
+        <textarea name="content" class="form-control" rows="5" required></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">저장</button>
+    <a href="list.jsp" class="btn btn-secondary">목록</a>
 </form>
-</body>
-</html>
+<jsp:include page="bottom.jsp"/>
