@@ -8,6 +8,9 @@ public class BoardVO {
     private String regdate;
     private int cnt;
 
+    public BoardVO() {
+    }
+
     public BoardVO(String title, String writer, String content) {
         this.title = title;
         this.writer = writer;
