@@ -8,6 +8,11 @@ public class BoardVO {
     private String regdate;
     private int cnt;
 
+    public BoardVO(String title, String writer, String content) {
+        this.title = title;
+        this.writer = writer;
+        this.content = content;
+    }
 
     public int getSeq() {
         return seq;
