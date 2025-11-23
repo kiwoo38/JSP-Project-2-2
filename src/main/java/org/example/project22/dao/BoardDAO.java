@@ -91,20 +91,24 @@ public class BoardDAO {
     }
 
     public int deleteBoard(int seq) {
+        int result = 0;
+
         try {
             conn = JDBCUtil.getConnection();
             stmt = conn.prepareStatement(BOARD_DELETE);
             stmt.setInt(1, seq);
-            int result = stmt.executeUpdate();
-            return result;   // 1이면 성공, 0이면 실패
+
+            result = stmt.executeUpdate();   // 1이면 삭제 성공, 0이면 실패
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
             try {
                 if (stmt != null) stmt.close();
-            } catch (Exception e) {}
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
-        return 0;
+        return result;
     }
 
 

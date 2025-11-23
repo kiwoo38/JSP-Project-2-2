@@ -34,7 +34,7 @@
     request.setAttribute("list", list);
 %>
 
-<form class="row g-2 mb-3" action="list.jsp">
+<form class="row g-2 mb-4 align-items-center" action="list.jsp">
     <div class="col-auto">
         <select name="type" class="form-select">
             <option value="title"
@@ -57,6 +57,10 @@
     </div>
 
     <div class="col-auto">
+        <a href="list.jsp" class="btn btn-secondary px-4">전체보기</a>
+    </div>
+
+    <div class="col-auto ms-auto">
         <button type="button" class="btn btn-success" onclick="location.href='write.jsp'">새 글 작성</button>
     </div>
 </form>

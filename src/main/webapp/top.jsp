@@ -54,8 +54,11 @@
 
 <header class="site-header">
   <div class="site-header-inner">
-    <img src="images/logo.png" alt="Logo" class="site-logo">
-    <div class="site-title">자유게시판</div>
+    <a href="list.jsp">
+      <img src="images/logo.png" alt="logo" class="site-logo">
+    </a>
+
+    <h1 class="site-title">자유게시판</h1>
   </div>
 </header>
 <div class="container mt-4">
