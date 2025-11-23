@@ -39,11 +39,11 @@
         <select name="type" class="form-select">
             <option value="title"
             ${empty param.type or param.type == 'title' ? 'selected="selected"' : ''}>
-                title
+                제목
             </option>
             <option value="writer"
             ${param.type == 'writer' ? 'selected="selected"' : ''}>
-                writer
+                작성자
             </option>
         </select>
     </div>

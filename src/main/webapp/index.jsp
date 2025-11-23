@@ -5,10 +5,10 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
+<h1><%= "Project2-2" %>
 </h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<a href="list.jsp">게시판으로 이동</a>
 </body>
 </html>
 
