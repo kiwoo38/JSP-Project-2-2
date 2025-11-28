@@ -9,7 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7959db5-88f5-4dc2-9e81-47edd234749f" name="Changes" comment="" />
+    <list default="true" id="d7959db5-88f5-4dc2-9e81-47edd234749f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/project22/file/FileUpload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/project22/file/FileVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fileform.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fileform2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fileupload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fileupload2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="Jsp File" />
         <option value="Dockerfile" />
+        <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,31 +62,35 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BoardDAO.executor": "Run",
-    "Application.JDBCUtil.executor": "Debug",
-    "Maven.Project2-2 [package].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 9.0.111.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BoardDAO.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JDBCUtil.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.Project2-2 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Project2-2 [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.111.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gimgiu/Documents/webproject/Project2-2/pom.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/images" />
@@ -126,6 +139,21 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -178,11 +206,28 @@
       <workItem from="1763861189041" duration="27000" />
       <workItem from="1763861217720" duration="148000" />
       <workItem from="1763861367718" duration="165000" />
-      <workItem from="1763861559297" duration="1703000" />
+      <workItem from="1763861559297" duration="2404000" />
+      <workItem from="1763942363847" duration="55000" />
+      <workItem from="1763942421388" duration="101000" />
+      <workItem from="1763942533750" duration="315000" />
+      <workItem from="1763942853629" duration="7000" />
+      <workItem from="1763942878576" duration="6000" />
+      <workItem from="1763942906392" duration="25000" />
+      <workItem from="1763942978825" duration="318000" />
+      <workItem from="1763943325784" duration="125000" />
+      <workItem from="1763943454268" duration="9000" />
+      <workItem from="1763943511658" duration="69000" />
+      <workItem from="1763943701964" duration="780000" />
+      <workItem from="1764154329921" duration="13000" />
+      <workItem from="1764154349347" duration="6808000" />
+      <workItem from="1764243006514" duration="2096000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Project2_2$Tomcat_9_0_111.ic" NAME="Tomcat 9.0.111 Coverage Results" MODIFIED="1763942634901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
